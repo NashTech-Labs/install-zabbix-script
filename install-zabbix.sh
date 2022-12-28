@@ -1,7 +1,7 @@
 #!/bin/sh
 
 set -o errexit
-set -o xtrace 
+# set -o xtrace  # used for debugging
 
 declare mysql_password=""
 declare mysql_password_zabbix=""
